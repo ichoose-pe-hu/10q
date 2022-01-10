@@ -1,0 +1,45 @@
+.question {transform: scale(1.25);}
+.question:nth-of-type(n+2) {display:none;}
+
+@media print{
+
+.more,
+.link,
+.collection,
+.letsplay
+{display: none;}
+
+.question,
+#answer
+{zoom:1;}
+
+#main {
+  top:0; left:0;
+  padding:0; margin:0;
+  position:fixed;
+  width:100%;
+  height:95vh;
+}
+.question {
+  position:absolute;
+	-webkit-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+	top:50%; left:50%;
+  width:100%;
+}
+#credit {
+  position:fixed;
+  bottom:0;
+  width:100%;
+}
+#ichoose {
+  margin:-10vw 2.5vw 0;
+}
+#who {
+  margin: 12.5vw 0 0;
+}
+#ichoose,
+#headline,
+#who,
+#back
+{zoom:0.75;}
