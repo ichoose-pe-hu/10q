@@ -8,7 +8,7 @@ $name = (string)filter_input(INPUT_POST, 'name'); // $_POST['name']
 $link = (string)filter_input(INPUT_POST, 'link'); // $_POST['link']
 $tag = (string)filter_input(INPUT_POST, 'tag'); // $_POST['tag']
 
-$fp = fopen('10q.csv', 'a+b');
+$fp = fopen('list.csv', 'a+b');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     flock($fp, LOCK_EX);
     fputcsv($fp, [$name, $link, $tag]);
