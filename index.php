@@ -45,7 +45,6 @@ fclose($fp);
 
 <div id="main">
 <div id="ichoose">
-<h1><i>Think</i></h1>
 <div id="howto">
 <h3>We create a collection of
 <br/><i>10 Questions</i></h3>
