@@ -93,8 +93,8 @@ fclose($fp);
 <?php endforeach; ?>
 <?php else: ?>
 <li class="list_item list_toggle">
-<span>coming soon</span>
-<a></a>
+<span>Under Construction</span>
+<a href="/10q/create/"></a>
 </li>
 <?php endif; ?>
 </ul>
