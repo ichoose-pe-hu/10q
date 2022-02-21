@@ -44,11 +44,11 @@ if( !empty($_POST['btn_confirm']) ) {
 
 	// ヘッダー情報を設定
 	$header = "MIME-Version: 1.0\n";
-	$header .= "From: ichoose <we.are.pe.hu@gmail.com>\n";
-	$header .= "Reply-To: ichoose <we.are.pe.hu@gmail.com>\n";
+	$header .= "From: i choose <we.are.pe.hu@gmail.com>\n";
+	$header .= "Reply-To: i choose <we.are.pe.hu@gmail.com>\n";
 
 	// 件名を設定
-	$auto_reply_subject = 'ichoose | Create 10 Questions';
+	$auto_reply_subject = 'i choose | Create 10 Questions';
 
 	// 本文を設定
 	$auto_reply_text .= "Thank You for Create 10 Questions\n\n";
@@ -101,7 +101,7 @@ if( !empty($_POST['btn_confirm']) ) {
 
 
 	// 件名を設定
-	$admin_reply_subject = 'ichoose | Create 10 Questions';
+	$admin_reply_subject = 'i choose | Create 10 Questions';
 
 	// 本文を設定
 	$admin_reply_text .= "Thank You for Create 10 Questions\n\n";
