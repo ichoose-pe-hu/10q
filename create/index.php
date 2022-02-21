@@ -698,5 +698,12 @@ You need to be careful not to make people feel uncomfortable and bored by asking
 <iframe src="/10q/tips.html" frameborder="0">読み込んでいます…</iframe>
 </div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $(function(){
+  $("#top").load("/10q/howto.html");
+  })
+</script>
 </body>
 </html>
