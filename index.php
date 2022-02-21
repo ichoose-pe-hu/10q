@@ -41,7 +41,7 @@ fclose($fp);
 </head>
 <body>
 <div id="top"></div>
-<h2 class="today"><u><a href="/members/10q/">Create</a></u></h2>
+<h2 class="today"><u><a href="/10q/create/">Create</a></u></h2>
 
 <div id="main">
 <div id="ichoose">
