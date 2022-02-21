@@ -36,21 +36,21 @@ hr {border:none;}
 }
 .question p {font-size:2vw;}
 
-#answer {
+.answer {
   text-align:center;
   padding-bottom:5vh;
 }
-#answer span {
+.answer span {
   font-size:2vw;
   display:inline-block;
   vertical-align:middle;
 }
-#answer u {
+.answer u {
   font-size:4vw;
   font-style:italic;
 }
-#answer .or {padding:0 5vw;}
-#answer:after {font-size:2vw;}
+.answer .or {padding:0 5vw;}
+.answer:after {font-size:2vw;}
 
 .form {position:relative;}
 .questionnaire {

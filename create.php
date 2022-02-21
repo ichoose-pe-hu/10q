@@ -167,7 +167,7 @@ if( !empty($_POST['btn_confirm']) ) {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" type="text/css" href="10q.css" />
+<link rel="stylesheet" type="text/css" href="styles.css" />
 <link rel="stylesheet" type="text/css" href="list.css" />
 
 <style type="text/css">
@@ -271,7 +271,7 @@ input[type="text"] {
 
 <div class="question">
 <h2><?php echo $_POST['q_one']; ?></h2>
-<div id="answer">
+<div class="answer">
 <span class="left">
 <p><?php echo $_POST['a_left_one']; ?></p>
 </span>
@@ -284,7 +284,7 @@ input[type="text"] {
 
 <div class="question">
 <h2><?php echo $_POST['q_two']; ?></h2>
-<div id="answer">
+<div class="answer">
 <span class="left">
 <p><?php echo $_POST['a_left_two']; ?></p>
 </span>
@@ -297,7 +297,7 @@ input[type="text"] {
 
 <div class="question">
 <h2><?php echo $_POST['q_three']; ?></h2>
-<div id="answer">
+<div class="answer">
 <span class="left">
 <p><?php echo $_POST['a_left_three']; ?></p>
 </span>
@@ -310,7 +310,7 @@ input[type="text"] {
 
 <div class="question">
 <h2><?php echo $_POST['q_four']; ?></h2>
-<div id="answer">
+<div class="answer">
 <span class="left">
 <p><?php echo $_POST['a_left_four']; ?></p>
 </span>
@@ -323,7 +323,7 @@ input[type="text"] {
 
 <div class="question">
 <h2><?php echo $_POST['q_five']; ?></h2>
-<div id="answer">
+<div class="answer">
 <span class="left">
 <p><?php echo $_POST['a_left_five']; ?></p>
 </span>
@@ -336,7 +336,7 @@ input[type="text"] {
 
 <div class="question">
 <h2><?php echo $_POST['q_six']; ?></h2>
-<div id="answer">
+<div class="answer">
 <span class="left">
 <p><?php echo $_POST['a_left_six']; ?></p>
 </span>
@@ -349,7 +349,7 @@ input[type="text"] {
 
 <div class="question">
 <h2><?php echo $_POST['q_seven']; ?></h2>
-<div id="answer">
+<div class="answer">
 <span class="left">
 <p><?php echo $_POST['a_left_seven']; ?></p>
 </span>
@@ -362,7 +362,7 @@ input[type="text"] {
 
 <div class="question">
 <h2><?php echo $_POST['q_eight']; ?></h2>
-<div id="answer">
+<div class="answer">
 <span class="left">
 <p><?php echo $_POST['a_left_eight']; ?></p>
 </span>
@@ -375,7 +375,7 @@ input[type="text"] {
 
 <div class="question">
 <h2><?php echo $_POST['q_nine']; ?></h2>
-<div id="answer">
+<div class="answer">
 <span class="left">
 <p><?php echo $_POST['a_left_nine']; ?></p>
 </span>
@@ -388,7 +388,7 @@ input[type="text"] {
 
 <div class="question">
 <h2><?php echo $_POST['q_ten']; ?></h2>
-<div id="answer">
+<div class="answer">
 <span class="left">
 <p><?php echo $_POST['a_left_ten']; ?></p>
 </span>
