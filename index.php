@@ -100,5 +100,10 @@ fclose($fp);
 </ul>
 <h1>by creative, community space <b class="pehu"><a href="https://creative-community.space/pehu/">∧°┐</a></b></h1>
 </div>
+<script type="text/javascript">
+  $(function(){
+  $("#top").load("/10q/howto.html");
+  })
+</script>
 </body>
 </html>
