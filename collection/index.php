@@ -33,27 +33,14 @@ fclose($fp);
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="10の質問のコレクションを作成しています。さまざまな人が考えた10の質問を楽しんで、理想の10の質問を考えてみましょう。">
 
-<link rel="stylesheet" type="text/css" href="list.css" />
+<link rel="stylesheet" type="text/css" href="/10q/list.css" />
 
 <style>
 </style>
 
 </head>
 <body>
-<div id="top"></div>
-<h2 class="today"><u><a href="/10q/create/">Create</a></u></h2>
 
-<div id="main">
-<div id="ichoose">
-<div id="howto">
-<h3>We create a collection of
-<br/><i>10 Questions</i></h3>
-<h3>Let's enjoy 10 Questions by various peoples
-<br>and Let's Create Your 10 Questions here.</h3>
-<p>10の質問のコレクションを作成しています。<br/>
-さまざまな人が考えた10の質問を楽しんで、理想の10の質問を考えてみましょう。</p>
-</div>
-</div>
 
 <!--
 <form id="org">
@@ -97,14 +84,5 @@ fclose($fp);
 </li>
 <?php endif; ?>
 </ul>
-<h1>by creative, community space <b class="pehu"><a href="https://creative-community.space/pehu/">∧°┐</a></b></h1>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript">
-  $(function(){
-  $("#top").load("/10q/howto.html");
-  })
-</script>
 </body>
 </html>
