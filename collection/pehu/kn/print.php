@@ -34,8 +34,8 @@ fclose($fp);
 <meta name="viewport" content="width=device-width">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" href="http://ichoose.pe.hu/styles.css" />
-<link rel="stylesheet" type="text/css" href="http://ichoose.pe.hu/10q/10q.css" />
+<link rel="stylesheet" type="text/css" href="/10q/styles.css" />
+<link rel="stylesheet" type="text/css" href="/10q/10q.css" />
 <link rel="stylesheet" type="text/css" href="/10q/print.css" />
 <title>10 Questions | by Kaori Nakao</title>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -74,7 +74,7 @@ fclose($fp);
 <?php endif; ?>
 </div>
 <h3 class="more"><i><a onclick="window.location.reload();">Next Question</a></i></h3>
-<h3 class="collection">We create a collection of <i><u><a href="http://ichoose.pe.hu/10q/" target="_parent">10 Questions</a></u></i></h3>
+<h3 class="collection">We create a collection of <i><u><a href="/10q/" target="_parent">10 Questions</a></u></i></h3>
 </div>
 
 <div id="credit">
@@ -82,22 +82,19 @@ fclose($fp);
 <p class="name">
 <br>中尾 香織<br>Kaori Nakao</p>
 <div class="message">
-vg.pe.hu/jp/cm/kaochomex/
+（^^）< {やっほー}
 </div>
-<p class="link">
-<a href="http://vg.pe.hu/jp/cm/kaochomex/think//">Website</a>
-</p>
 <h3 class="letsplay"><i><a href="index.html" target="_parent">View All the 10Q</a></i></h3>
 </div>
 
 <div id="back">
-<h1>by creative, community space <b><a href="http://vg.pe.hu/jp/" target="_blank">∧°┐</a></b></h1>
+<h1>by creative, community space <b><a class="pehu" href="https://creative-community.space/pehu/" target="_blank">∧°┐</a></b></h1>
 </div>
 </div>
 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
-<script type="text/javascript" src="http://ichoose.pe.hu/js/10q.js"></script>
-<script type="text/javascript" src="http://ichoose.pe.hu/js/main.js"></script>
-<script type="text/javascript" src="http://ichoose.pe.hu/js/jquery.arctext.js"></script>
+<script type="text/javascript" src="/10q/js/random_q.js"></script>
+<script type="text/javascript" src="/10q/js/main.js"></script>
+<script type="text/javascript" src="/10q/js/jquery.arctext.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>
