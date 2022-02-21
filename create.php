@@ -162,15 +162,16 @@ if( !empty($_POST['btn_confirm']) ) {
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+<title>Create 10 Questions | The Answers are always inside of you</title>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="/styles.css" />
-<link rel="stylesheet" type="text/css" href="/10q/10q.css" />
-<link rel="stylesheet" type="text/css" href="/10q/list.css" />
-<title>Create 10 Questions | The Answers are always inside of you</title>
+
+<link rel="stylesheet" type="text/css" href="10q.css" />
+<link rel="stylesheet" type="text/css" href="list.css" />
+
 <style type="text/css">
 .ichoose {font-size: 2vw; margin:10vw 5vw 35vw;}
-
 .ichoose h3 u {font-size: 2.5vw;}
 .ichoose p {margin-bottom: 5vw;}
 input[type="name"],
@@ -212,6 +213,26 @@ input[type="submit"] {
   padding:2.5vw;
 }
 
+#today {
+  position:fixed;
+  z-index:10;
+  top:0; left:0;
+  width:100%;
+  height:100vh;
+  display:none;
+}
+#inside {
+  top: 50%;
+  left: 50%;
+  z-index:25;
+  z-index:100;
+  height: 75vh;
+  width: 75%;
+  position:absolute;
+  margin:0; padding:0;
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+}
 #next {zoom:1.25;}
 
 @media screen and (max-width: 500px){
@@ -232,14 +253,6 @@ input[type="text"] {
 .ichoose {zoom:150%; height:70vh;}
 }
 </style>
-<script type="text/javascript" src="http://www.google.com/jsapi"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript">
-$(function(){
-$("#top").load("/top.html");
-})
-</script>
 </head>
 <body>
 <div id="top"></div>
@@ -452,7 +465,6 @@ $("#top").load("/top.html");
 <p>投稿いただいた10の質問を、このウェブサイトに公開する準備が整いましたら、同じく投稿フォームに入力いただいたメールアドレスまで、ウェブページ公開のお知らせをお送りいたします。</p>
 <hr/>
 </div>
-<h2>The Answers are always inside of you</h2>
 </div>
 
 <?php else: ?>
@@ -682,7 +694,7 @@ You need to be careful not to make people feel uncomfortable and bored by asking
 
 <div id="today">
 <div id="inside">
-<iframe src="/collection/faqs.html" frameborder="0">読み込んでいます…</iframe>
+<iframe src="faqs.html" frameborder="0">読み込んでいます…</iframe>
 </div>
 </div>
 </body>

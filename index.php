@@ -24,44 +24,42 @@ fclose($fp);
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" href="/styles.css" />
-<link rel="stylesheet" type="text/css" href="/10q/list.css" />
-<script type="text/javascript" src="http://www.google.com/jsapi"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript" src="/10q/org.js"></script>
-<script type="text/javascript">
-$(function(){
-$("#top").load("/top.html");
-})
-</script>
-<title>Create 10 Questions | The Answers are always inside of you</title>
+<title>10 Questions | The Answers are always inside of you</title>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="10の質問のコレクションを作成しています。さまざまな人が考えた10の質問を楽しんで、理想の10の質問を考えてみましょう。">
+
+<link rel="stylesheet" type="text/css" href="list.css" />
+
+<style>
+</style>
+
 </head>
 <body>
 <div id="top"></div>
-<h2 class="today"><u><a href="/collection/">Create</a></u></h2>
+<h2 class="today"><u><a href="create.php">Create</a></u></h2>
 
 <div id="main">
 <div id="ichoose">
 <h1><i>Think</i></h1>
 <div id="howto">
-<h3>We create a collection of<br/><i>10 Questions</i></h3>
+<h3>We create a collection of
+<br/><i>10 Questions</i></h3>
 <h3>Let's enjoy 10 Questions by various peoples
 <br>and Let's Create Your 10 Questions here.</h3>
 <p>10の質問のコレクションを作成しています。<br/>
 さまざまな人が考えた10の質問を楽しんで、理想の10の質問を考えてみましょう。</p>
 </div>
 </div>
+
+<!--
 <form id="org">
 <h3><u>These 10 questions were created by</u></h3>
-<div class="search-box language" style="display:none;">
+<div class="search-box language">
 <ul>
 <li>
 <input type="radio" name="language" value="artist" id="artist">
@@ -83,6 +81,7 @@ $("#top").load("/top.html");
 </ul>
 </div>
 </form>
+-->
 
 <ul class="list">
 <?php if (!empty($rows)): ?>
@@ -99,7 +98,7 @@ $("#top").load("/top.html");
 </li>
 <?php endif; ?>
 </ul>
-<h1>by creative, community space <b><a href="http://vg.pe.hu/jp/">∧°┐</a></b></h1>
+<h1>by creative, community space <b class="pehu"><a href="https://creative-community.space/pehu/">∧°┐</a></b></h1>
 </div>
 </body>
 </html>
