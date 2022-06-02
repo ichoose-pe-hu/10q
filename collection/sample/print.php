@@ -99,9 +99,9 @@ fclose($fp);
 </div>
 </div>
 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
-<script type="text/javascript" src="http://ichoose.pe.hu/js/10q.js"></script>
-<script type="text/javascript" src="http://ichoose.pe.hu/js/main.js"></script>
-<script type="text/javascript" src="http://ichoose.pe.hu/js/jquery.arctext.js"></script>
+<script type="text/javascript" src="../../js/10q.js"></script>
+<script type="text/javascript" src="../../js/main.js"></script>
+<script type="text/javascript" src="../../js/jquery.arctext.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>
