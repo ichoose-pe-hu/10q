@@ -1,57 +1,111 @@
-html,body {font-family: "Times New Roman", "Times", serif; margin:0;}
-h1 {font-size: 2.5vw; text-align:center; font-weight: 500; letter-spacing: 0.01rem;}
-h1 b, .pehu {font-size: 120%; font-weight: normal; font-family:"MS Mincho";}
-h2 {font-size: 2.5vw; font-weight: 500; padding:0;}
-h3 {font-size: 3.5vw; font-weight: 500;}
-a {color:#000; text-decoration:none;}
-a:hover {color:red;}
-u {font-size: 120%; font-weight: normal;}
+body {
+    font-family: "Times New Roman", "Times", serif;
+    margin: 0;
+}
 
-#main {position: relative; left:0; bottom:0; width:100%; margin:0;}
-#ichoose {width:90%; margin: 10% auto 0;}
+h1 {
+    font-size: 2.5vw;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+}
 
-.question {transform: scale(1.25);}
-.question:nth-of-type(n+2) {display:none;}
+h1 b,
+.pehu {
+    font-size: 120%;
+    font-weight: normal;
+    font-family: "MS Mincho";
+}
 
-@media print{
+h2 {
+    font-size: 2.5vw;
+    font-weight: 500;
+    padding: 0;
+}
 
-.more,
-.link,
-.collection,
-.letsplay
-{display: none;}
+h3 {
+    font-size: 3.5vw;
+    font-weight: 500;
+}
 
-.question,
-#answer
-{zoom:1;}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+u {
+    font-size: 120%;
+    font-weight: normal;
+}
 
 #main {
-  top:0; left:0;
-  padding:0; margin:0;
-  position:fixed;
-  width:100%;
-  height:95vh;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
 }
-.question {
-  position:absolute;
-	-webkit-transform:translate(-50%,-50%);
-	transform:translate(-50%,-50%);
-	top:50%; left:50%;
-  width:100%;
-}
-#credit {
-  position:fixed;
-  bottom:0;
-  width:100%;
-}
+
 #ichoose {
-  margin:-10vw 2.5vw 0;
+    width: 90%;
+    margin: 10% auto 0;
 }
-#who {
-  margin: 12.5vw 0 0;
+
+.question {
+    transform: scale(1.25);
 }
-#ichoose,
-#headline,
-#who,
-#back
-{zoom:0.75;}
+
+.question:nth-of-type(n+2) {
+    display: none;
+}
+
+@media print {
+    .more,
+    .link,
+    .collection,
+    .letsplay {
+        display: none;
+    }
+    .question,
+    #answer {
+        zoom: 1;
+    }
+    #main {
+        top: 0;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        width: 100%;
+        height: 95vh;
+    }
+    .question {
+        position: absolute;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        width: 100%;
+    }
+    #credit {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    #ichoose {
+        margin: -10vw 2.5vw 0;
+    }
+    #who {
+        margin: 12.5vw 0 0;
+    }
+    #ichoose,
+    #headline,
+    #who,
+    #back {
+        zoom: 0.75;
+    }
+}

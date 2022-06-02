@@ -31,9 +31,7 @@ fclose($fp);
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="10の質問のコレクションを作成しています。さまざまな人が考えた10の質問を楽しんで、理想の10の質問を考えてみましょう。">
-
-<link rel="stylesheet" type="text/css" href="/10q/list.css" />
+<link rel="stylesheet" type="text/css" href="../list.css" />
 
 <style>
 </style>
