@@ -35,7 +35,6 @@ fclose($fp);
 </head>
 <body>
 
-<!--
 <form id="org">
 <div class="search-box language">
 <ul>
@@ -59,7 +58,6 @@ fclose($fp);
 </ul>
 </div>
 </form>
--->
 
 <ul class="list">
 <?php if (!empty($rows)): ?>
@@ -75,5 +73,7 @@ fclose($fp);
 </li>
 <?php endif; ?>
 </ul>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="http://creative-community.space/coding/js/org.js"></script>
 </body>
 </html>
