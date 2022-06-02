@@ -35,6 +35,7 @@ fclose($fp);
 </head>
 <body>
 
+<!--
 <form id="org">
 <div class="search-box language">
 <ul>
@@ -58,6 +59,7 @@ fclose($fp);
 </ul>
 </div>
 </form>
+-->
 
 <ul class="list">
 <?php if (!empty($rows)): ?>
