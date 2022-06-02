@@ -8,7 +8,7 @@ $name = (string)filter_input(INPUT_POST, 'name'); // $_POST['name']
 $link = (string)filter_input(INPUT_POST, 'link'); // $_POST['link']
 $tag = (string)filter_input(INPUT_POST, 'tag'); // $_POST['tag']
 
-$fp = fopen('list.csv', 'a+b');
+$fp = fopen('collection.csv', 'a+b');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     flock($fp, LOCK_EX);
     fputcsv($fp, [$name, $link, $tag]);
@@ -31,7 +31,7 @@ fclose($fp);
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="list.css" />
+<link rel="stylesheet" type="text/css" href="collection.css" />
 </head>
 <body>
 
