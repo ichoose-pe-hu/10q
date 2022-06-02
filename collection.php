@@ -72,7 +72,6 @@ fclose($fp);
 <?php else: ?>
 <li class="list_item list_toggle">
 <span>Under Construction</span>
-<a href="/10q/create/"></a>
 </li>
 <?php endif; ?>
 </ul>
