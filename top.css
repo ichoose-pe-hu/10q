@@ -1,0 +1,101 @@
+body {
+    font-family: "Times New Roman", "Times", serif;
+    margin: 0;
+    padding: 0;
+}
+
+.pehu {
+    font-size: 120%;
+    font-weight: normal;
+    font-family: "MS Mincho";
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-shadow: 0.1rem 0.1rem 0 #fff;
+    font-weight: 500;
+    padding: 0;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+#howto {
+    padding: 2rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.top,
+.today {
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+.top {
+    left: 5vw;
+}
+
+.today {
+    right: 5vw;
+}
+
+.top:hover,
+.today:hover {
+    cursor: pointer;
+    font-style: italic;
+}
+
+#ichoose i {
+    font-size: 4.5rem;
+    display: inline-block;
+    margin: 1rem 0;
+    color: red;
+    border: solid red;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+    h2 {
+        font-size: 1.5rem;
+        text-shadow: 0.1rem 0.1rem 0 #fff;
+    }
+    h3 {
+        font-size: 4.5vw;
+    }
+    #ichoose i {
+        font-size: 7.5vw;
+        display: inline-block;
+        border: solid red 0.5vw;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    h1 {
+        font-size: 4.5vw;
+        letter-spacing: 0.1vw;
+    }
+    #howto {
+        padding: 2.5vw;
+        font-size: 2.5vw;
+    }
+}
