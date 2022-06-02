@@ -5,7 +5,7 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="/10q/10q.css" />
+<link rel="stylesheet" type="text/css" href="../../../10q.css" />
 
 <style type="text/css">
 #answer span:first-child:before {
