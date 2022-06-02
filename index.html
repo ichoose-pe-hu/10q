@@ -22,14 +22,71 @@
             margin: 2rem auto 5rem;
         }
         
+        #headline:hover {
+            color: red;
+            cursor: pointer;
+        }
+        
         hr {
             border: none;
+        }
+        
+        #menu {
+            position: fixed;
+        }
+        
+        #menu {
+            margin: 0;
+            padding: 0;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            z-index: 25;
+            z-index: 100;
+            display: none;
+        }
+        
+        #menu span {
+            font-size: 3.5rem;
+            display: block;
+        }
+        
+        #menu a {
+            display: block;
+            padding: 1.25rem 2.5rem;
+            background-color: #fff;
+            border: solid 0.1rem #000;
+        }
+        
+        #menu a:hover {
+            color: #fff;
+            background-color: #000;
+        }
+        
+        .open #menu {
+            display: block;
+        }
+        
+        @media screen and (max-width: 750px) {
+            #menu span {
+                font-size: 7.5vw;
+            }
+            #menu a {
+                padding: 2.5vw 4.5vw;
+                border: solid 0.25vw #000;
+            }
         }
     </style>
 
 </head>
 
-<body>
+<body id="box">
+    <div id="menu">
+        <span><a href="http://ichoose.pe.hu/">Introduction</a></span>
+        <span><a href="#">10 Questions</a></span>
+        <span><a href="https://creative-community.space/50q/">50 Questions</a></span>
+    </div>
 
     <div id="main">
         <h1 id="headline">ichoose.pe.hu</h1>
@@ -54,6 +111,17 @@
         $(function() {
             $("#collection").load("collection.php");
         })
+
+        let btn = document.querySelector('#headline');
+        let box = document.querySelector('#box');
+
+        let btnToggleclass = function(el) {
+            el.classList.toggle('open');
+        }
+
+        btn.addEventListener('click', function() {
+            btnToggleclass(box);
+        }, false);
     </script>
 </body>
 
