@@ -8,20 +8,25 @@
     <link rel="stylesheet" type="text/css" href="../../styles.css" />
     <link rel="stylesheet" type="text/css" href="../../list.css" />
     <title>10 Questions | by Name</title>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(function() {
-            $("#top").load("/top.html");
-        })
-    </script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
     <style type="text/css">
-
+        #headline {
+            position: fixed;
+            font-size: 1.11rem;
+            width: 100%;
+            margin: 2.5rem auto 5rem;
+        }
     </style>
 </head>
 
 <body>
-    <div id="top"></div>
-    <h2 class="today"><u><a href="/collection/">Create</a></u></h2>
+    <h1 id="headline">ichoose.pe.hu</h1>
+    <h2 class="top"><u><a href="answer.html">Answers</a></u></h2>
+    <h2 class="today"><u><a href="print.php">Print</a></u></h2>
 
     <div class="base">
         <div id="scaler" class="scaler">
@@ -86,4 +91,6 @@
     <div id="scroll" class="scroll"></div>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="../scroll.js"></script>
+    <script type="text/javascript" src="../../js/logo.js"></script>
+    <script type="text/javascript" src="../../js/jquery.arctext.js"></script>
 </body>
