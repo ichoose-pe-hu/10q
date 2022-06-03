@@ -53,6 +53,9 @@ fclose($fp);
 <li>
 <input type="radio" name="language" value="etc" id="etc">
 <label for="etc" class="label">Etc,</label></li>
+<li>
+<input type="reset" name="reset" value="View All" class="reset-button" onclick="window.location.reload(true);">
+</li>
 </ul>
 </div>
 </form>
