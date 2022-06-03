@@ -27,7 +27,7 @@ $("#").load("");
 })
 </script>
 <style type="text/css">
-#next {display:none;}
+#next, #next a {display:none;}
 </style>
 </head>
 <body>
