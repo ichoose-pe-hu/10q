@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="popup" id="more" style="display:none;">
-<p><iframe src="about.php"></iframe></p>
+<p><iframe src="about.html"></iframe></p>
 <span class="close" onclick="obj=document.getElementById('more').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 <div id="hidden" onclick="obj=document.getElementById('more').style; obj.display=(obj.display=='none')?'block':'none';">
