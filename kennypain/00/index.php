@@ -26,7 +26,7 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 </head>
 <body>
-<p id="center"><img src="http://chottocrazy.pe.hu/online/talkshow/image.png"></p>
+<p id="center"><img src="../image.png"></p>
 <div id="infomation">
 <p id="next"><a href="../01/">Start</a></p>
 </div>
