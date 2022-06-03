@@ -75,6 +75,6 @@ fclose($fp);
 <?php endif; ?>
 </ul>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="http://creative-community.space/coding/js/org.js"></script>
+<script src="https://creative-community.space/value/index/org.js"></script>
 </body>
 </html>
