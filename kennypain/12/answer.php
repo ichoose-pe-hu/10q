@@ -56,7 +56,7 @@ fclose($fp);
 <?php else: ?>
 <?php endif; ?>
 </div>
-<p id="next"><a href="../thankyou.php">Thank You</a></p>
+<p id="next"><a href="../00/">Thank You</a></p>
 </div>
 </form>
 </section>
