@@ -23,11 +23,10 @@ $("#09").load("09/answer.php");
 $("#10").load("10/answer.php");
 $("#11").load("11/answer.php");
 $("#12").load("12/answer.php");
-$("#").load("");
 })
 </script>
 <style type="text/css">
-#next, #next a {display:none;}
+a {display:none;}
 </style>
 </head>
 <body>
