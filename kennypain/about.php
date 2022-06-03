@@ -6,7 +6,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="ramdom.js"></script>
 <title>暗闇でおしゃべりしたい | 大 chotto crazy 2020</title>
-<link rel="stylesheet" type="text/css" href="/css/programs.css" />
+<link rel="stylesheet" type="text/css" href="programs.css" />
 <link rel="stylesheet" type="text/css" href="answer.css" />
 <style type="text/css">
 body {background:#000;
@@ -29,11 +29,6 @@ body {background:#000;
 }
 #more_text iframe {width:100%; height:55vw;}
 </style>
-<script type="text/javascript">
-$(function(){
-$("#about_q").load("http://chottocrazy.pe.hu/ccm/10q/sample/about.php");
-})
-</script>
 </head>
 <body>
 <div id="header">
@@ -85,6 +80,5 @@ $("#about_q").load("http://chottocrazy.pe.hu/ccm/10q/sample/about.php");
 </div>
 </div>
 </div>
-<div id="about_q"></div>
 </body>
 </html>
